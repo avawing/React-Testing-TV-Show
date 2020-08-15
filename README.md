@@ -41,6 +41,8 @@ Your challenge for this module: write tests for both the `App.js` component and 
 
 The async call being inside the component makes it hard to test the asynchronous nature of the component. Let's move the async function into an `/api` directory so we can easily mock that function and make the async tests easier.
 
+**DONE**
+
 1. Create a directory called `/api` in the `src` directory
 1. Create a file inside `/api` called `fetchShow.js`
 1. Move `fetchShow` into that new file and export it (fetchShow is in the `useEffect` - pay attention to how this was setting state. You will still need to set state in this effect hook the exact same way...)
@@ -67,6 +69,7 @@ useEffect(() => {
     }
 }, []);
 ```
+**DONE**
 
 ### Stretch goals
 
