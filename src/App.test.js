@@ -148,5 +148,5 @@ test("App renders without errors and imports things", async () => {
   //make assertions
   //drop down shows season 1
   expect(getAllByText(/season /i)).toHaveLength(1);
-  // expect(mockFetchShow).toHaveBeenCalledTimes(1);
+  expect(mockFetchShow).toHaveBeenCalledTimes(2);
 });
